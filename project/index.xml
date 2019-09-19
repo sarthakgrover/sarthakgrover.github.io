@@ -5,7 +5,7 @@
     <link>https://sarthakgrover.github.io/project/</link>
       <atom:link href="https://sarthakgrover.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 18 Sep 2019 22:17:06 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sarthakgrover.github.io/img/icon-192.png</url>
       <title>Projects</title>
@@ -13,11 +13,291 @@
     </image>
     
     <item>
-      <title>Updating ...</title>
-      <link>https://sarthakgrover.github.io/project/my-project-name/</link>
-      <pubDate>Wed, 18 Sep 2019 22:17:06 +0530</pubDate>
-      <guid>https://sarthakgrover.github.io/project/my-project-name/</guid>
-      <description></description>
+      <title>IoT Fingerprinting</title>
+      <link>https://sarthakgrover.github.io/project/iot-fingerprinting/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/iot-fingerprinting/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Offload the security of a home network to a home router.&lt;/li&gt;
+&lt;li&gt;Fingerprint IoT devices to learn their network profile.&lt;/li&gt;
+&lt;li&gt;Collaborate with other gateways to detect anomalous behavior.&lt;/li&gt;
+&lt;li&gt;Simulated user behavior and captured activity periods and background traffic for 10 different IoTs.&lt;/li&gt;
+&lt;li&gt;Use PCI and extracted relevant network features from DNS, size, timing, and frequency to identify devices.&lt;/li&gt;
+&lt;li&gt;Identify individual device network profiles and differentiate the behavior originating from device activities by formulating a clustering problem.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CDN Analysis</title>
+      <link>https://sarthakgrover.github.io/project/cdn-analysis/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/cdn-analysis/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/shahifaqeer/cdn-analysis&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this work, we compared average page load times for the top 500 Alexa websites across CDNs and ASNs.&lt;/p&gt;
+
+&lt;p&gt;Based on our algorithm, we estimated that 300 websites are using CDNs. We find that Google CDN gives the best performance with an average total response time of 0.48s. However, multiple requests to google.* domains are in fact redirected since Google detected that we are using a script to measure response timings. The worst performer was Alibaba CDN. In general, sites using CDNs outperformed those not using CDNs when comparing median time taken to load the complete page by 0.2s. Sites not using CDNs take 5x the time for TCP handshake, and 3x the time for SSL negotiation, when compared to those using CDNs. Time taken for DNS lookup, and WAIT time for server response is same across both groups.&lt;/p&gt;
+
+&lt;p&gt;Grouping by ASN, we find that Google and Microsoft have the best performance, while Alibaba and ChinaNet have the worst performance. This is consistent with our timing analysis when grouped by CDNs. We found that 74.67% of detected CDN names correspond directly to the AS name. Two websites, liputan6.com and trello.com were using ASNs different from the detected CDN used to host most content on their webpages. Furthermore, we found 22 websites that were not using CDNs, hosted on ASes that also offer CDNs if needed.&lt;/p&gt;
+
+&lt;p&gt;For more details, please visit: &lt;a href=&#34;../../publication/cdn-analysis2019.pdf&#34;&gt;Report&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IOT DPI Analysis</title>
+      <link>https://sarthakgrover.github.io/project/iot-dpi-analysis/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/iot-dpi-analysis/</guid>
+      <description>
+
+&lt;h2 id=&#34;customer-owned-and-managed-coam-internet-of-things-iot-security&#34;&gt;Customer Owned and Managed (COAM) Internet of Things (IoT) security&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Used DPI to study connectivity, security, and privacy of a subset of Comcast smart homes&lt;/li&gt;
+&lt;li&gt;Developed script to search for PII in unencrypted IoT data&lt;/li&gt;
+&lt;li&gt;Identified malfunctioning XBOX in one of the subscribers&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IoT Privacy</title>
+      <link>https://sarthakgrover.github.io/project/iot-privacy/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/iot-privacy/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Tested multiple IoT devices in lab and exposed security and privacy issues at PrivacyCon 2016&lt;/li&gt;
+&lt;li&gt;Found that a digital photoframe was susceptible to eavesdroppers and fails to encrypt photographs, and nest thermostat exposed private location information of nearest weather stations to the ISP (now patched)&lt;/li&gt;
+&lt;li&gt;\hfill[\href{&lt;a href=&#34;https://www.cs.princeton.edu/news/citp-stitching-internet-things}{Link}&#34; target=&#34;_blank&#34;&gt;https://www.cs.princeton.edu/news/citp-stitching-internet-things}{Link}&lt;/a&gt;]&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/privacycon2016-grover.pdf&#34;&gt;presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://www.youtube.com/watch?v=-778aD_XVKI&#34; target=&#34;_blank&#34;&gt;talk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Broadband Upgrade</title>
+      <link>https://sarthakgrover.github.io/project/broadband-upgrade/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/broadband-upgrade/</guid>
+      <description>&lt;p&gt;Internet service providers are facing mounting pressure from
+regulatory agencies to increase the speed of their service offerings to
+consumers; some are beginning to deploy gigabit-per-second speeds in
+certain markets, as well. The race to deploy increasingly faster speeds
+begs the question of whether users are exhausting the capacity that is
+already available. Previous work has shown that users who are already
+maximizing their usage on a given access link will continue to do so when
+they are migrated to a higher service tier.&lt;/p&gt;
+
+&lt;p&gt;In a unique controlled experiment involving thousands of Comcast subscribers in the same city, we analyzed usage patterns of two groups: a
+control group (105 Mbps) and a randomly selected treatment group that
+was upgraded to 250 Mbps without their knowledge. We study how users
+who are already on service plans with high downstream throughput respond when they are upgraded to a higher service tier without their
+knowledge, as compared to a similar control group. To our surprise, subscribers with moderate traffic demands increase their usage in response
+to a service-tier upgrade relatively more than high-volume subscribers
+do. We speculate that even though these users may not take advantage
+of the full available capacity, the service-tier increase generally improves
+performance, which causes them to use the Internet more than they otherwise would have.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Analyzed broadband usage patterns of a user group offered higher speed broadband without their knowledge; Found that difference in traffic demand was higher for moderate users as compared to high-volume subscribers&lt;/li&gt;
+&lt;li&gt;Presented at CableLabs (Jul 2016) and FCC (Oct 2016)&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://www.youtube.com/watch?v=9QiovWtGtq0&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/traffic-demand-broadband-pam2015.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facade</title>
+      <link>https://sarthakgrover.github.io/project/facade/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/facade/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Designed and implemented a new encoding technique that uses web search terms to encode hidden messages in an upstream channel for censorship circumvention to resist fingerprinting attacks.&lt;/li&gt;
+&lt;li&gt;Results published at FOCI 2014, San Diego, CA.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/facade2014.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Flowqos</title>
+      <link>https://sarthakgrover.github.io/project/flowqos/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/flowqos/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Designed an SDN based system to allocate QoS based on application and devices in a home network. My main contribution was the DNS based flow classifier, which forwards traffic through appropriate traffic shapers in a home router.&lt;/li&gt;
+&lt;li&gt;Results published at HotSDN 2014, Chicago, IL.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/flowqos2014.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Browserlab</title>
+      <link>https://sarthakgrover.github.io/project/browserlab/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/browserlab/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Detect the performance bottleneck in a home network by collaborating between home devices.&lt;/li&gt;
+&lt;li&gt;Created a monitoring system to collect detailed wireless measurements from synchronized devices in a home, and manage and upload this data to the centralized server for analysis.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Tested uplink and downlink broadband performance from devices to detect if bottleneck is in the local wireless network or at the edge router.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We develop the browserlab daemon that listens on multiple network devices in a home, and propose collaborative bottleneck detection algorithm to identify if the access link is the bottleneck or the wireless is. Next, the daemon will be ported as a browser extension to scale the solution and collect large scale home wireless measurements.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Integrating and extending the Fathom and BISmark measurement platforms to develop a home network troubleshooter for internal and external network diagnosis. The API allows a user to communicate between connected clients, and with the gateway, to issue parallel tests to analyse the home networks performance.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Programmed active traceroute test on bismark router and analyzed latency and throughput performance from routers.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project BISmark</title>
+      <link>https://sarthakgrover.github.io/project/bismark/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/bismark/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Analyzed active and passive network data from multiple homes to study network availability in various countries, popular devices in homes, and traffic usage with time.&lt;/li&gt;
+&lt;li&gt;Monitoring system deployed on BISmark gateways to collect active and passive measurements.&lt;/li&gt;
+&lt;li&gt;Found most home traffic is exchanged from a few devices to a small number of popular domains.&lt;/li&gt;
+&lt;li&gt;First large scale measurement and analysis work which provides us a view of home networks behind the NAT and discusses the differences observed in kind of devices used, and the distribution of usage with time, in developed and developing countries.&lt;/li&gt;
+&lt;li&gt;Results published at ACM SIGCOMM IMC 2013, Barcelona, Spain.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://www.lincs.fr/events/peeking-behind-the-nat-an-empirical-study-of-home-networks/&#34; target=&#34;_blank&#34;&gt;talk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/peeking-nat2013.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>mPaaS</title>
+      <link>https://sarthakgrover.github.io/project/mpaas/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/mpaas/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/mPaaS2013.pdf&#34;&gt;poster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SAZO</title>
+      <link>https://sarthakgrover.github.io/project/sazo/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/sazo/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Outsourced security management of home networks to an expert third party.&lt;/li&gt;
+&lt;li&gt;Extended BISmark routers passive monitoring capability to monitor customer traffic for suspicious activity from specific network devices. On detecting suspicious traffic, the traffic is automatically redirected through Comcast&amp;rsquo;s VPN for security analysis and the home owner is notified.&lt;/li&gt;
+&lt;li&gt;Preliminary work presented as a poster at the Homesys &amp;lsquo;13 workshop, Ubicomp.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/panoptes2013.pdf&#34;&gt;poster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Routing Analysis</title>
+      <link>https://sarthakgrover.github.io/project/routing-analysis/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/routing-analysis/</guid>
+      <description>&lt;p&gt;Analyzed traceroute data from access networks to a variety of Internet destinations and examined route persistence and prevalence. Our aim is to associate home network performance metrics with path changes due to traffic engineering policies.&lt;/p&gt;
+
+&lt;p&gt;Preliminary results were presented in a talk at Active Internet Measurement Symposium (AIMS), CAIDA.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Indoor Localization</title>
+      <link>https://sarthakgrover.github.io/project/indoor-localization/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/indoor-localization/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented FM/AM transmitter and receiver systems using GNURadio.&lt;/li&gt;
+&lt;li&gt;Utilized RDS information and track stereo component to enable indoor localization of smart phones.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Connect</title>
+      <link>https://sarthakgrover.github.io/project/smart-connect/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/smart-connect/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Prepared work-plan proposal for submission to the Department of Science and Technology (DST), Govt of India; Computed closed-formed expressions for network reliability, and evaluated information theoretic bounds for random hybrid networks.&lt;/li&gt;
+&lt;li&gt;Computed closed form expressions for network reliability in hexagonal (lattice) hybrid wireless networks with link failures and fading.&lt;/li&gt;
+&lt;li&gt;Studied tessellation algorithm for WSN drop and placement to ensure end-to-end connectivity in the wild. Proposed tier-rank based routing protocol.&lt;/li&gt;
+&lt;li&gt;Evaluated information-theoretic bounds for random hybrid networks (Poisson RGG).&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Applications include mobile patients and equipment tracking and sensing, home health care, baby monitoring, electronic boarding passes, and lost child tracking.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deployed industrial wireless sensor networks and analyzed experimental data.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WBAN</title>
+      <link>https://sarthakgrover.github.io/project/wban/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/wban/</guid>
+      <description>
+
+&lt;h2 id=&#34;athlete-monitoring&#34;&gt;Athlete Monitoring&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monitored inter-connectivity between players using wireless bio-medical sensors and
+multiple base stations during soccer games. Analyzed time-series experimental data
+and developed encounter based model to capture user mobility, and generate synthetic network topologies.&lt;/li&gt;
+&lt;li&gt;Simulated encounter based real-time routing scheme for dynamic multi-hop networks.
+Applications include providing referee-assist and enhanced television broadcast services during games.&lt;/li&gt;
+&lt;li&gt;Awarded the best student paper at \emph{IEEE WiMob 2010}, Niagara Falls, Canada (Acceptance: 28.9).&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/mobility-soccer2010.pdf&#34;&gt;paper&lt;/a&gt; on athlete monitoring&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cross-layer-wban-analysis&#34;&gt;Cross-Layer WBAN Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implemented cross layer protocol to auto-regressively predict PHY
+parameters and control MAC level queue for mobile nodes in Rayleigh fading environment.&lt;/li&gt;
+&lt;li&gt;Modeled human body channel for intra BAN (on-body network). Comprehensive
+simulations on NS2 showed improved network throughput and lifetime.&lt;/li&gt;
+&lt;li&gt;Applications include energy efficient athlete monitoring and remote health care for mobile users.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/performance-WBAN2010.pdf&#34;&gt;master&amp;rsquo;s thesis&lt;/a&gt; on performance analysis of cross layer WSNs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BCH Decoder</title>
+      <link>https://sarthakgrover.github.io/project/bch-decoder/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/bch-decoder/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented a real-time trellis decoder for BCH codes using VHDL on Xilinx ISE and configured it on FPGA.&lt;/li&gt;
+&lt;li&gt;Dedicated hardware was shown to achieve higher data rate compared to software implementation.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face Tracking</title>
+      <link>https://sarthakgrover.github.io/project/face-tracking/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/face-tracking/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Developed a robust real-time face tracking algorithm using rank deficient face detection
+to iteratively search and track the human face in each video frame.&lt;/li&gt;
+&lt;li&gt;Demonstrated the system by mounting camera on robotic arm programmed via MATLAB.&lt;/li&gt;
+&lt;li&gt;Potential applications include focusing on speaker
+during conferences, and recording lectures.&lt;/li&gt;
+&lt;li&gt;Results published in proceedings of \emph{IEEE CIS 2008}.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/face-tracking2008.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

@@ -3,33 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://sarthakgrover.github.io/tags/cdn/</loc>
-    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sarthakgrover.github.io/tags/network-measurement/</loc>
-    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
+    <loc>https://sarthakgrover.github.io/project/iot-fingerprinting/</loc>
+    <lastmod>2019-09-19T22:07:51+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://sarthakgrover.github.io/project/</loc>
-    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
+    <lastmod>2019-09-20T00:44:53+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://sarthakgrover.github.io/</loc>
-    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
+    <lastmod>2019-09-20T00:44:53+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://sarthakgrover.github.io/tags/</loc>
-    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
+    <loc>https://sarthakgrover.github.io/project/cdn-analysis/</loc>
+    <lastmod>2019-09-19T22:03:47+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://sarthakgrover.github.io/project/my-project-name/</loc>
-    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
+    <loc>https://sarthakgrover.github.io/project/iot-dpi-analysis/</loc>
+    <lastmod>2019-09-19T22:09:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/iot-privacy/</loc>
+    <lastmod>2019-09-19T22:08:13+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/broadband-upgrade/</loc>
+    <lastmod>2019-09-19T22:07:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/facade/</loc>
+    <lastmod>2019-09-19T22:04:38+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/flowqos/</loc>
+    <lastmod>2019-09-19T22:04:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/browserlab/</loc>
+    <lastmod>2019-09-19T22:04:49+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/bismark/</loc>
+    <lastmod>2019-09-19T22:05:03+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/mpaas/</loc>
+    <lastmod>2019-09-19T22:10:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/sazo/</loc>
+    <lastmod>2019-09-19T22:05:11+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/routing-analysis/</loc>
+    <lastmod>2019-09-19T22:05:03+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/indoor-localization/</loc>
+    <lastmod>2019-09-19T22:05:48+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/smart-connect/</loc>
+    <lastmod>2019-09-19T22:06:29+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/wban/</loc>
+    <lastmod>2019-09-19T22:10:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/bch-decoder/</loc>
+    <lastmod>2019-09-20T00:44:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/face-tracking/</loc>
+    <lastmod>2019-09-20T00:44:53+05:30</lastmod>
   </url>
   
   <url>
@@ -58,6 +123,10 @@
   
   <url>
     <loc>https://sarthakgrover.github.io/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/tags/</loc>
   </url>
   
 </urlset>
