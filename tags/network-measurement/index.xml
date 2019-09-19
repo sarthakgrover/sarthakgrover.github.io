@@ -13,20 +13,11 @@
     </image>
     
     <item>
-      <title>My Project Name Demo</title>
+      <title>Updating ...</title>
       <link>https://sarthakgrover.github.io/project/my-project-name/</link>
       <pubDate>Wed, 18 Sep 2019 22:17:06 +0530</pubDate>
       <guid>https://sarthakgrover.github.io/project/my-project-name/</guid>
-      <description>
-
-&lt;h1 id=&#34;content-here&#34;&gt;CONTENT HERE&lt;/h1&gt;
-
-&lt;h2 id=&#34;sub-content&#34;&gt;Sub-content&lt;/h2&gt;
-
-&lt;p&gt;something something&lt;/p&gt;
-
-&lt;p&gt;end something&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

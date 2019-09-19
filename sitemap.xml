@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>https://sarthakgrover.github.io/project/my-project-name/</loc>
-    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://sarthakgrover.github.io/tags/network-measurement/</loc>
     <lastmod>2019-09-18T22:17:06+05:30</lastmod>
   </url>
@@ -29,6 +24,11 @@
   
   <url>
     <loc>https://sarthakgrover.github.io/tags/</loc>
+    <lastmod>2019-09-18T22:17:06+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sarthakgrover.github.io/project/my-project-name/</loc>
     <lastmod>2019-09-18T22:17:06+05:30</lastmod>
   </url>
   
