@@ -5,12 +5,92 @@
     <link>https://sarthakgrover.github.io/tags/</link>
       <atom:link href="https://sarthakgrover.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://sarthakgrover.github.io/img/icon-192.png</url>
       <title>Tags</title>
       <link>https://sarthakgrover.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>machine-learning</title>
+      <link>https://sarthakgrover.github.io/tags/machine-learning/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>https://sarthakgrover.github.io/tags/networking/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/networking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://sarthakgrover.github.io/tags/security/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>analysis</title>
+      <link>https://sarthakgrover.github.io/tags/analysis/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>censorship</title>
+      <link>https://sarthakgrover.github.io/tags/censorship/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/censorship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bismark</title>
+      <link>https://sarthakgrover.github.io/tags/bismark/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/bismark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>system</title>
+      <link>https://sarthakgrover.github.io/tags/system/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>others</title>
+      <link>https://sarthakgrover.github.io/tags/others/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/others/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wireless</title>
+      <link>https://sarthakgrover.github.io/tags/wireless/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/wireless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theory</title>
+      <link>https://sarthakgrover.github.io/tags/theory/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/tags/theory/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

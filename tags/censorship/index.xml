@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>censorship | Sarthak Grover</title>
+    <link>https://sarthakgrover.github.io/tags/censorship/</link>
+      <atom:link href="https://sarthakgrover.github.io/tags/censorship/index.xml" rel="self" type="application/rss+xml" />
+    <description>censorship</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sarthakgrover.github.io/img/icon-192.png</url>
+      <title>censorship</title>
+      <link>https://sarthakgrover.github.io/tags/censorship/</link>
+    </image>
+    
+    <item>
+      <title>Spooky Scan Analysis</title>
+      <link>https://sarthakgrover.github.io/project/spooky-scan/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/spooky-scan/</guid>
+      <description>&lt;p&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/spooky-analyzer&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sanitize censorship traces collected using spooky scan.&lt;/li&gt;
+&lt;li&gt;Analyze traces based on tcp flags to conclude overall Internet censorship and the relationship between network traffic of different countries.&lt;/li&gt;
+&lt;li&gt;Use censorship ratios to predict outgoing or incoming censorship&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Facade</title>
+      <link>https://sarthakgrover.github.io/project/facade/</link>
+      <pubDate>Fri, 01 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/facade/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Designed and implemented a new encoding technique that uses web search terms to encode hidden messages in an upstream channel for censorship circumvention to resist fingerprinting attacks.&lt;/li&gt;
+&lt;li&gt;Results published at FOCI 2014, San Diego, CA.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/facade2014.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://github.com/gsathya/htpt&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

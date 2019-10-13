@@ -118,15 +118,16 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Sarthak Grover">
   <meta property="og:url" content="https://sarthakgrover.github.io/project/cdn-analysis/">
   <meta property="og:title" content="CDN Analysis | Sarthak Grover">
-  <meta property="og:description" content="Measurement and comparison of page load times across identifiable CDNs"><meta property="og:image" content="https://sarthakgrover.github.io/project/cdn-analysis/featured.png">
-  <meta property="twitter:image" content="https://sarthakgrover.github.io/project/cdn-analysis/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Measurement and comparison of page load times across identifiable CDNs"><meta property="og:image" content="https://sarthakgrover.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://sarthakgrover.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2019-01-01T00:00:00&#43;00:00">
@@ -169,10 +170,6 @@
     "@id": "https://sarthakgrover.github.io/project/cdn-analysis/"
   },
   "headline": "CDN Analysis",
-  
-  "image": [
-    "https://sarthakgrover.github.io/project/cdn-analysis/featured.png"
-  ],
   
   "datePublished": "2019-01-01T00:00:00Z",
   "dateModified": "2019-09-19T22:03:47+05:30",
@@ -477,24 +474,18 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
   
-
-
+  
 <div class="article-container pt-3">
   <h1>CDN Analysis</h1>
 
   
 
   
+    
 
 
 
@@ -617,29 +608,22 @@
 
 </div>
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 512px; max-height: 385px;">
-  <div style="position: relative">
-    <img src="/project/cdn-analysis/featured.png" alt="" class="featured-image">
     
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
 
@@ -647,11 +631,13 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p><a href="https://github.com/shahifaqeer/cdn-analysis" target="_blank">Code</a></p>
+      <p>Link to <a href="https://github.com/shahifaqeer/cdn-analysis" target="_blank">Code</a></p>
 
 <p>In this work, we compared average page load times for the top 500 Alexa websites across CDNs and ASNs.</p>
 
 <p>Based on our algorithm, we estimated that 300 websites are using CDNs. We find that Google CDN gives the best performance with an average total response time of 0.48s. However, multiple requests to google.* domains are in fact redirected since Google detected that we are using a script to measure response timings. The worst performer was Alibaba CDN. In general, sites using CDNs outperformed those not using CDNs when comparing median time taken to load the complete page by 0.2s. Sites not using CDNs take 5x the time for TCP handshake, and 3x the time for SSL negotiation, when compared to those using CDNs. Time taken for DNS lookup, and WAIT time for server response is same across both groups.</p>
+
+<p><img src="/img/cdn_timing_comparison.png" alt="CDN Analysis Results" /></p>
 
 <p>Grouping by ASN, we find that Google and Microsoft have the best performance, while Alibaba and ChinaNet have the worst performance. This is consistent with our timing analysis when grouped by CDNs. We found that 74.67% of detected CDN names correspond directly to the AS name. Two websites, liputan6.com and trello.com were using ASNs different from the detected CDN used to host most content on their webpages. Furthermore, we found 22 websites that were not using CDNs, hosted on ASes that also offer CDNs if needed.</p>
 
@@ -660,6 +646,14 @@
     </div>
 
     
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/networking/">networking</a>
+  
+  <a class="badge badge-light" href="/tags/analysis/">analysis</a>
+  
+</div>
 
 
     
@@ -693,7 +687,7 @@
     <div class="media-body">
       <h5 class="card-title"><a href="https://sarthakgrover.github.io/">Sarthak Grover</a></h5>
       <h6 class="card-subtitle">Computer Networks Researcher</h6>
-      <p class="card-text">Network analysis researcher on the lookout for challenging projects.</p>
+      <p class="card-text">Network analysis researcher and security expert</p>
       <ul class="network-icon" aria-hidden="true">
         
           

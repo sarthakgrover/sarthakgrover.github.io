@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>analysis | Sarthak Grover</title>
+    <link>https://sarthakgrover.github.io/tags/analysis/</link>
+      <atom:link href="https://sarthakgrover.github.io/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sarthakgrover.github.io/img/icon-192.png</url>
+      <title>analysis</title>
+      <link>https://sarthakgrover.github.io/tags/analysis/</link>
+    </image>
+    
+    <item>
+      <title>IoT Fingerprinting</title>
+      <link>https://sarthakgrover.github.io/project/iot-fingerprinting/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/iot-fingerprinting/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/livinglab&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt; to collect traces using soft access point.&lt;/li&gt;
+&lt;li&gt;Offload the security of a home network to a home router.&lt;/li&gt;
+&lt;li&gt;Fingerprint IoT devices to learn their network profile.&lt;/li&gt;
+&lt;li&gt;Collaborate with other gateways to detect anomalous behavior.&lt;/li&gt;
+&lt;li&gt;Simulated user behavior and captured activity periods and background traffic for 10 different IoTs.&lt;/li&gt;
+&lt;li&gt;Use PCI and extracted relevant network features from DNS, size, timing, and frequency to identify devices.&lt;/li&gt;
+&lt;li&gt;Identify individual device network profiles and differentiate the behavior originating from device activities by formulating a clustering problem.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CDN Analysis</title>
+      <link>https://sarthakgrover.github.io/project/cdn-analysis/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/cdn-analysis/</guid>
+      <description>&lt;p&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/cdn-analysis&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this work, we compared average page load times for the top 500 Alexa websites across CDNs and ASNs.&lt;/p&gt;
+
+&lt;p&gt;Based on our algorithm, we estimated that 300 websites are using CDNs. We find that Google CDN gives the best performance with an average total response time of 0.48s. However, multiple requests to google.* domains are in fact redirected since Google detected that we are using a script to measure response timings. The worst performer was Alibaba CDN. In general, sites using CDNs outperformed those not using CDNs when comparing median time taken to load the complete page by 0.2s. Sites not using CDNs take 5x the time for TCP handshake, and 3x the time for SSL negotiation, when compared to those using CDNs. Time taken for DNS lookup, and WAIT time for server response is same across both groups.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://sarthakgrover.github.io/img/cdn_timing_comparison.png&#34; alt=&#34;CDN Analysis Results&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Grouping by ASN, we find that Google and Microsoft have the best performance, while Alibaba and ChinaNet have the worst performance. This is consistent with our timing analysis when grouped by CDNs. We found that 74.67% of detected CDN names correspond directly to the AS name. Two websites, liputan6.com and trello.com were using ASNs different from the detected CDN used to host most content on their webpages. Furthermore, we found 22 websites that were not using CDNs, hosted on ASes that also offer CDNs if needed.&lt;/p&gt;
+
+&lt;p&gt;For more details, please visit: &lt;a href=&#34;../../publication/cdn-analysis2019.pdf&#34;&gt;Report&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spooky Scan Analysis</title>
+      <link>https://sarthakgrover.github.io/project/spooky-scan/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/spooky-scan/</guid>
+      <description>&lt;p&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/spooky-analyzer&#34; target=&#34;_blank&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Sanitize censorship traces collected using spooky scan.&lt;/li&gt;
+&lt;li&gt;Analyze traces based on tcp flags to conclude overall Internet censorship and the relationship between network traffic of different countries.&lt;/li&gt;
+&lt;li&gt;Use censorship ratios to predict outgoing or incoming censorship&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Broadband Upgrade</title>
+      <link>https://sarthakgrover.github.io/project/broadband-upgrade/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/broadband-upgrade/</guid>
+      <description>&lt;p&gt;Internet service providers are facing mounting pressure from
+regulatory agencies to increase the speed of their service offerings to
+consumers; some are beginning to deploy gigabit-per-second speeds in
+certain markets, as well. The race to deploy increasingly faster speeds
+begs the question of whether users are exhausting the capacity that is
+already available. Previous work has shown that users who are already
+maximizing their usage on a given access link will continue to do so when
+they are migrated to a higher service tier.&lt;/p&gt;
+
+&lt;p&gt;In a unique controlled experiment involving thousands of Comcast subscribers in the same city, we analyzed usage patterns of two groups: a
+control group (105 Mbps) and a randomly selected treatment group that
+was upgraded to 250 Mbps without their knowledge. We study how users
+who are already on service plans with high downstream throughput respond when they are upgraded to a higher service tier without their
+knowledge, as compared to a similar control group. To our surprise, subscribers with moderate traffic demands increase their usage in response
+to a service-tier upgrade relatively more than high-volume subscribers
+do. We speculate that even though these users may not take advantage
+of the full available capacity, the service-tier increase generally improves
+performance, which causes them to use the Internet more than they otherwise would have.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Analyzed broadband usage patterns of a user group offered higher speed broadband without their knowledge; Found that difference in traffic demand was higher for moderate users as compared to high-volume subscribers&lt;/li&gt;
+&lt;li&gt;Presented at CableLabs (Jul 2016) and FCC (Oct 2016)&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://www.youtube.com/watch?v=9QiovWtGtq0&#34; target=&#34;_blank&#34;&gt;video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/traffic-demand-broadband-pam2015.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>FlowQoS</title>
+      <link>https://sarthakgrover.github.io/project/flowqos/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/flowqos/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Designed an SDN based system to allocate QoS based on application and devices in a home network. My main contribution was the DNS based flow classifier, which forwards traffic through appropriate traffic shapers in a home router.&lt;/li&gt;
+&lt;li&gt;Results published at HotSDN 2014, Chicago, IL.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/flowqos2014.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Browserlab</title>
+      <link>https://sarthakgrover.github.io/project/browserlab/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/browserlab/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Detect the performance bottleneck in a home network by collaborating between home devices.&lt;/li&gt;
+&lt;li&gt;Created a monitoring system to collect detailed wireless measurements from synchronized devices in a home, and manage and upload this data to the centralized server for analysis.&lt;/li&gt;
+&lt;li&gt;Tested uplink and downlink broadband performance from devices to detect if bottleneck is in the local wireless network or at the edge router.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/connection_performance&#34; target=&#34;_blank&#34;&gt;analysis&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/browserlab-linktest&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;We develop the browserlab daemon that listens on multiple network devices in a home, and propose collaborative bottleneck detection algorithm to identify if the access link is the bottleneck or the wireless is. Next, the daemon will be ported as a browser extension to scale the solution and collect large scale home wireless measurements.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/browserlab&#34; target=&#34;_blank&#34;&gt;setup-code&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/curltest&#34; target=&#34;_blank&#34;&gt;test-code&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Integrating and extending the Fathom and BISmark measurement platforms to develop a home network troubleshooter for internal and external network diagnosis. The API allows a user to communicate between connected clients, and with the gateway, to issue parallel tests to analyse the home networks performance.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Link to modified OpenWRT &lt;a href=&#34;https://github.com/shahifaqeer/luci-app-bismark&#34; target=&#34;_blank&#34;&gt;bismark&lt;/a&gt; &lt;a href=&#34;https://github.com/shahifaqeer/my-luci-bismark-0.11&#34; target=&#34;_blank&#34;&gt;build&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Programmed active traceroute test on bismark router and analyzed latency and throughput performance from routers.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project BISmark</title>
+      <link>https://sarthakgrover.github.io/project/bismark/</link>
+      <pubDate>Wed, 01 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/bismark/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Analyzed active and passive network data from multiple homes to study network availability in various countries, popular devices in homes, and traffic usage with time.&lt;/li&gt;
+&lt;li&gt;Monitoring system deployed on BISmark gateways to collect active and passive measurements.&lt;/li&gt;
+&lt;li&gt;Found most home traffic is exchanged from a few devices to a small number of popular domains.&lt;/li&gt;
+&lt;li&gt;First large scale measurement and analysis work which provides us a view of home networks behind the NAT and discusses the differences observed in kind of devices used, and the distribution of usage with time, in developed and developing countries.&lt;/li&gt;
+&lt;li&gt;Results published at ACM SIGCOMM IMC 2013, Barcelona, Spain.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://www.lincs.fr/events/peeking-behind-the-nat-an-empirical-study-of-home-networks/&#34; target=&#34;_blank&#34;&gt;talk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/peeking-nat2013.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/passive&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt; for analysis.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Routing Analysis</title>
+      <link>https://sarthakgrover.github.io/project/routing-analysis/</link>
+      <pubDate>Wed, 01 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/routing-analysis/</guid>
+      <description>&lt;p&gt;Analyzed traceroute data from access networks to a variety of Internet destinations and examined route persistence and prevalence. Our aim is to associate home network performance metrics with path changes due to traffic engineering policies.&lt;/p&gt;
+
+&lt;p&gt;Preliminary results were presented in a talk at Active Internet Measurement Symposium (AIMS), CAIDA.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Link to &lt;a href=&#34;https://github.com/shahifaqeer/access-point-routing&#34; target=&#34;_blank&#34;&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

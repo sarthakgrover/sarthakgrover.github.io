@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>theory | Sarthak Grover</title>
+    <link>https://sarthakgrover.github.io/tags/theory/</link>
+      <atom:link href="https://sarthakgrover.github.io/tags/theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sarthakgrover.github.io/img/icon-192.png</url>
+      <title>theory</title>
+      <link>https://sarthakgrover.github.io/tags/theory/</link>
+    </image>
+    
+    <item>
+      <title>Smart Connect</title>
+      <link>https://sarthakgrover.github.io/project/smart-connect/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/smart-connect/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Prepared work-plan proposal for submission to the Department of Science and Technology (DST), Govt of India; Computed closed-formed expressions for network reliability, and evaluated information theoretic bounds for random hybrid networks.&lt;/li&gt;
+&lt;li&gt;Computed closed form expressions for network reliability in hexagonal (lattice) hybrid wireless networks with link failures and fading.&lt;/li&gt;
+&lt;li&gt;Studied tessellation algorithm for WSN drop and placement to ensure end-to-end connectivity in the wild. Proposed tier-rank based routing protocol.&lt;/li&gt;
+&lt;li&gt;Evaluated information-theoretic bounds for random hybrid networks (Poisson RGG).&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Applications include mobile patients and equipment tracking and sensing, home health care, baby monitoring, electronic boarding passes, and lost child tracking.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deployed industrial wireless sensor networks and analyzed experimental data.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

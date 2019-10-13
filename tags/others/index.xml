@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>others | Sarthak Grover</title>
+    <link>https://sarthakgrover.github.io/tags/others/</link>
+      <atom:link href="https://sarthakgrover.github.io/tags/others/index.xml" rel="self" type="application/rss+xml" />
+    <description>others</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://sarthakgrover.github.io/img/icon-192.png</url>
+      <title>others</title>
+      <link>https://sarthakgrover.github.io/tags/others/</link>
+    </image>
+    
+    <item>
+      <title>mPaaS</title>
+      <link>https://sarthakgrover.github.io/project/mpaas/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/mpaas/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/mPaaS2013.pdf&#34;&gt;poster&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Indoor Localization</title>
+      <link>https://sarthakgrover.github.io/project/indoor-localization/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/indoor-localization/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented FM/AM transmitter and receiver systems using GNURadio.&lt;/li&gt;
+&lt;li&gt;Utilized RDS information and track stereo component to enable indoor localization of smart phones.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Connect</title>
+      <link>https://sarthakgrover.github.io/project/smart-connect/</link>
+      <pubDate>Tue, 01 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/smart-connect/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Prepared work-plan proposal for submission to the Department of Science and Technology (DST), Govt of India; Computed closed-formed expressions for network reliability, and evaluated information theoretic bounds for random hybrid networks.&lt;/li&gt;
+&lt;li&gt;Computed closed form expressions for network reliability in hexagonal (lattice) hybrid wireless networks with link failures and fading.&lt;/li&gt;
+&lt;li&gt;Studied tessellation algorithm for WSN drop and placement to ensure end-to-end connectivity in the wild. Proposed tier-rank based routing protocol.&lt;/li&gt;
+&lt;li&gt;Evaluated information-theoretic bounds for random hybrid networks (Poisson RGG).&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Applications include mobile patients and equipment tracking and sensing, home health care, baby monitoring, electronic boarding passes, and lost child tracking.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Deployed industrial wireless sensor networks and analyzed experimental data.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WBAN</title>
+      <link>https://sarthakgrover.github.io/project/wban/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/wban/</guid>
+      <description>
+
+&lt;h2 id=&#34;athlete-monitoring&#34;&gt;Athlete Monitoring&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monitored inter-connectivity between players using wireless bio-medical sensors and
+multiple base stations during soccer games. Analyzed time-series experimental data
+and developed encounter based model to capture user mobility, and generate synthetic network topologies.&lt;/li&gt;
+&lt;li&gt;Simulated encounter based real-time routing scheme for dynamic multi-hop networks.
+Applications include providing referee-assist and enhanced television broadcast services during games.&lt;/li&gt;
+&lt;li&gt;Awarded the best student paper at \emph{IEEE WiMob 2010}, Niagara Falls, Canada (Acceptance: 28.9).&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/mobility-soccer2010.pdf&#34;&gt;paper&lt;/a&gt; on athlete monitoring&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;cross-layer-wban-analysis&#34;&gt;Cross-Layer WBAN Analysis&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implemented cross layer protocol to auto-regressively predict PHY
+parameters and control MAC level queue for mobile nodes in Rayleigh fading environment.&lt;/li&gt;
+&lt;li&gt;Modeled human body channel for intra BAN (on-body network). Comprehensive
+simulations on NS2 showed improved network throughput and lifetime.&lt;/li&gt;
+&lt;li&gt;Applications include energy efficient athlete monitoring and remote health care for mobile users.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/performance-WBAN2010.pdf&#34;&gt;master&amp;rsquo;s thesis&lt;/a&gt; on performance analysis of cross layer WSNs&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BCH Decoder</title>
+      <link>https://sarthakgrover.github.io/project/bch-decoder/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/bch-decoder/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Implemented a real-time trellis decoder for BCH codes using VHDL on Xilinx ISE and configured it on FPGA.&lt;/li&gt;
+&lt;li&gt;Dedicated hardware was shown to achieve higher data rate compared to software implementation.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Face Tracking</title>
+      <link>https://sarthakgrover.github.io/project/face-tracking/</link>
+      <pubDate>Sat, 01 Mar 2008 00:00:00 +0000</pubDate>
+      <guid>https://sarthakgrover.github.io/project/face-tracking/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Developed a robust real-time face tracking algorithm using rank deficient face detection
+to iteratively search and track the human face in each video frame.&lt;/li&gt;
+&lt;li&gt;Demonstrated the system by mounting camera on robotic arm programmed via MATLAB.&lt;/li&gt;
+&lt;li&gt;Potential applications include focusing on speaker
+during conferences, and recording lectures.&lt;/li&gt;
+&lt;li&gt;Results published in proceedings of \emph{IEEE CIS 2008}.&lt;/li&gt;
+&lt;li&gt;Link to &lt;a href=&#34;../../publication/face-tracking2008.pdf&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
